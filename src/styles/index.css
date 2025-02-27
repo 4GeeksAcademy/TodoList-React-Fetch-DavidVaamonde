@@ -1,11 +1,36 @@
-/* 
+body {
+    background-color: #EDEDED;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul {
+    width: 50%;
+    padding: 0;
+    margin-bottom: 0;
+}
 
-*/
+ul li {
+    border: 1px solid #6E6E6E;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#eliminaTarea {
+    background: none;
+    border: none;
+    color: #FF0000;
+    
+    opacity: 0.1;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+
+#eliminaTarea:hover {
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
